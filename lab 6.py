@@ -4,8 +4,14 @@ def encode(password):
 
 
 def decode(encoded_password):
-    #partners function
-    return ""
+    #partners function - Ian :)
+    output = ''
+    for char in encoded_password:
+        add = int(char) - 3
+        if add < 0:
+            add += 10
+        output += str(add)
+    return output
 
 
 def main():
