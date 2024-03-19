@@ -32,7 +32,7 @@ def main():
 
         elif option == "2":
             if encoded_password:
-                decoded_password = decode(encoded_password)  # Your partner will fill in this function
+                decoded_password = decode(encoded_password)  \
                 print(f"The encoded password is {encoded_password}, and the original password is {decoded_password}.")
             else:
                 print("No password has been encoded yet.")
