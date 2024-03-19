@@ -1,3 +1,4 @@
+# Lab 6 COP3502C - Angel Perez, Partner - Ian Cabrera
 def encode(password):
     # This function encodes the password by shifting each digit up by 3 numbers.
     return "".join(str((int(char) + 3) % 10) for char in password)
